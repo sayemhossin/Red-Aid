@@ -6,6 +6,7 @@ import Banner from '../Component/Banner/Banner';
 import Stats from '../Component/Stats/Stats';
 import Services from '../Component/Services/Services';
 import Call from '../Component/Call/Call';
+import Campaigns from '../Component/Campaigns/Campaigns';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
                 <Stats></Stats>
                 <Services></Services>
                 <Call></Call>
+                <Campaigns></Campaigns>
             </div>
         </div>
     );

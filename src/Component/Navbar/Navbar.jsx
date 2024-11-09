@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
     </>
     return (
-        <div className="navbar container mx-auto h-20 ">
+        <div className="navbar max-w-7xl px-6 lg:px-0 mx-auto h-20">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

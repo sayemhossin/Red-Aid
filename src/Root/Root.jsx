@@ -5,7 +5,7 @@ import Navbar from '../Component/Navbar/Navbar';
 const Root = () => {
     return (
         <div>
-            <div className="shadow-lg h-20 fixed w-full z-50">
+            <div className="shadow-lg bg-gray-50 h-20 fixed w-full z-50">
                 <Navbar></Navbar>
             </div>
             <div className="pt-20">

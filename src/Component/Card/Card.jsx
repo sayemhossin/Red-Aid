@@ -20,7 +20,7 @@ const Card = () => {
                 />
 
                 {/* Icon with background change and smooth transition */}
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:mb-6 sm:mb-4 mb-3 p-3 bg-black rounded-full group-hover:bg-red-700 transition-colors duration-300 ease-in-out z-10">
+                <div className="absolute lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:mb-6 sm:mb-4 mb-3 p-3 bg-black rounded-full group-hover:bg-red-700 transition-colors duration-300 ease-in-out z-10">
                     <MdOutlineBloodtype className="text-white text-7xl" />
                 </div>
 
@@ -45,7 +45,7 @@ const Card = () => {
                 />
 
                 {/* Icon with background change and smooth transition */}
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:mb-6 sm:mb-4 mb-3 p-3 bg-black rounded-full group-hover:bg-red-700 transition-colors duration-300 ease-in-out z-10">
+                <div className="absolute lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:mb-6 sm:mb-4 mb-3 p-3 bg-black rounded-full group-hover:bg-red-700 transition-colors duration-300 ease-in-out z-10">
                     <BiDonateBlood className="text-white text-7xl" />
                 </div>
 
@@ -68,7 +68,7 @@ const Card = () => {
                 />
 
                 {/* Icon with background change and smooth transition */}
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:mb-6 sm:mb-4 mb-3 p-3 bg-black rounded-full group-hover:bg-red-700 transition-colors duration-300 ease-in-out z-10">
+                <div className="absolute lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:mb-6 sm:mb-4 mb-3 p-3 bg-black rounded-full group-hover:bg-red-700 transition-colors duration-300 ease-in-out z-10">
                     <GiBloodyStash className="text-white text-7xl" />
                 </div>
 
