@@ -1,7 +1,10 @@
 #sidebar a.active {
  
     background-color: unset;
-    color: #1B3C73;
+    color: #740938;
     font-weight: 800;
-   border: 2px solid #40679E;
+    text-decoration: underline;
+    text-decoration-color: #740938; 
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px; 
 }

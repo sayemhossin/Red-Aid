@@ -1,13 +1,13 @@
 import React from 'react';
 import { MdBloodtype } from 'react-icons/md';
 import { Link, NavLink } from 'react-router-dom';
-
+import './Navbar.css'
 const Navbar = () => {
 
     const link = <>
         <div className="flex  flex-col text-[15px] lg:flex-row md:text-xl" id="sidebar">
-            <li><NavLink>Home</NavLink></li>
-            <li><NavLink>Donation Form</NavLink></li>
+            <li><NavLink to={'/'}>Home</NavLink></li>
+            <li><NavLink to={'/form'}>Donation Form</NavLink></li>
         </div>
     </>
 
