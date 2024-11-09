@@ -5,6 +5,7 @@ import Ticket from '../Component/Ticket/Ticket';
 import Banner from '../Component/Banner/Banner';
 import Stats from '../Component/Stats/Stats';
 import Services from '../Component/Services/Services';
+import Call from '../Component/Call/Call';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                 <Banner></Banner>
                 <Stats></Stats>
                 <Services></Services>
+                <Call></Call>
             </div>
         </div>
     );
