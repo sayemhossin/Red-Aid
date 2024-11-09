@@ -1,5 +1,5 @@
 import React from 'react';
-import image2 from '../../assets/image/statsbg.jpg';
+import image1 from '../../assets/image/statsbg.jpg';
 import { FaAward, FaStethoscope } from 'react-icons/fa6';
 import { IoTrophyOutline } from 'react-icons/io5';
 import { FaUserFriends } from 'react-icons/fa';
@@ -10,7 +10,7 @@ const Stats = () => {
     return (
         <div>
             <section style={{
-                backgroundImage: `url(${image2})`,
+                backgroundImage: `url(${image1})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 position: 'relative',
