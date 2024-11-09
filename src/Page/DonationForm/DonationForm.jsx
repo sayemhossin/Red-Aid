@@ -1,6 +1,13 @@
 import React from 'react';
 import image1 from '../../assets/image/formbanner.jpg';
+import { toast } from 'react-toastify';
 const DonationForm = () => {
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        toast.success('Submitted Successfully')
+    }
+
     return (
         <div>
             <div className="relative">
@@ -14,11 +21,11 @@ const DonationForm = () => {
 
                 {/* Text layer */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                    <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold">Donation Form</h1>
+                    <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold">Donate Now</h1>
                 </div>
             </div>
             <h1 className='text-4xl md:text-5xl font-extrabold mt-20 mb-10 text-center'>Make a Donation</h1>
-            <form className='mb-20 max-w-4xl mx-auto'>
+            <form onSubmit={handleSubmit} className='mb-20 max-w-4xl mx-auto'>
                 <div className="bg-base-200  border border-black md:p-10 p-6">
                     <h1 className="text-2xl md:text-3xl font-semibold mb-4">Your Blood Donation</h1>
                     <select className="select text-gray-700 font-bold w-full border border-black rounded-none p-2">
@@ -42,36 +49,36 @@ const DonationForm = () => {
                             type="text"
                             placeholder="First Name"
                             className="w-full border border-black rounded-none p-4"
-                        />
+                            required />
 
                         <input
                             type="text"
                             placeholder="Last Name"
-                            className="w-full border border-black rounded-none p-4"
+                            className="w-full border border-black rounded-none p-4" required
                         />
                     </div>
                     <div className='flex gap-5 flex-col md:flex-row'>
                         <input
                             type="email"
                             placeholder="Email"
-                            className="w-full border border-black rounded-none p-4"
+                            className="w-full border border-black rounded-none p-4" required
                         />
 
                         <input
                             type="text"
                             placeholder="Address"
-                            className="w-full border border-black rounded-none p-4"
+                            className="w-full border border-black rounded-none p-4" required
                         />
                     </div>
 
                     <textarea
                         placeholder="Case Description..."
-                        className="w-full border border-black rounded-none p-4"
+                        className="w-full border border-black rounded-none p-4" required
                         rows="4"
                     ></textarea>
 
                     {/* Submit Button */}
-                    <button className="bg-red-700 text-white px-12 py-3 text-xl relative overflow-hidden group">
+                    <button type='submit' className="bg-red-700 text-white px-12 py-3 text-xl relative overflow-hidden group">
                         <span className="absolute inset-0 bg-black transition-all duration-300 group-hover:w-full w-0 z-10"></span>
                         <span className="flex items-center gap-2 relative z-20">Donate Now</span>
                     </button>
