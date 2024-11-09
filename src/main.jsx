@@ -8,6 +8,7 @@ import {
 import Root from './Root/Root';
 import Home from './Home/Home';
 import DonationForm from './Page/DonationForm/DonationForm';
+import Contact from './Page/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: '/form',
         element: <DonationForm></DonationForm>
+      },
+      {
+        path: '/contact',
+        element: <Contact></Contact>
       }
     ]
   },

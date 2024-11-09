@@ -8,6 +8,7 @@ const Navbar = () => {
         <div className="flex  flex-col text-[15px] lg:flex-row md:text-xl" id="sidebar">
             <li><NavLink to={'/'}>Home</NavLink></li>
             <li><NavLink to={'/form'}>Donation Form</NavLink></li>
+            <li><NavLink to={'/contact'}>Contact</NavLink></li>
         </div>
     </>
     return (
@@ -34,7 +35,7 @@ const Navbar = () => {
                         {link}
                     </ul>
                 </div>
-                <Link to={'/'} className="flex items-center md:text-5xl cursor-pointer text-red-700 font-extrabold text-3xl"><MdBloodtype  className='text-red-800'/>RedAid</Link>
+                <Link to={'/'} className="flex items-center md:text-6xl cursor-pointer text-red-700 font-extrabold text-3xl"><MdBloodtype  className='text-red-600'/>RedAid</Link>
             </div>
 
             <div className="navbar-end">
