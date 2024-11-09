@@ -10,10 +10,6 @@ const Navbar = () => {
             <li><NavLink to={'/form'}>Donation Form</NavLink></li>
         </div>
     </>
-
-
-
-
     return (
         <div className="navbar container mx-auto h-20 ">
             <div className="navbar-start">
@@ -38,7 +34,7 @@ const Navbar = () => {
                         {link}
                     </ul>
                 </div>
-                <Link to={'/'} className="flex items-center md:text-5xl cursor-pointer text-red-700 font-extrabold text-xl"><MdBloodtype  className='text-red-800'/>RedAid</Link>
+                <Link to={'/'} className="flex items-center md:text-5xl cursor-pointer text-red-700 font-extrabold text-3xl"><MdBloodtype  className='text-red-800'/>RedAid</Link>
             </div>
 
             <div className="navbar-end">
