@@ -31,8 +31,7 @@ const Campaigns = () => {
                     clickable: true,
                 }}
                 modules={[Autoplay, Pagination]}
-                className="mySwiper bg-gray-100 mt-10"
-            >
+                className="mySwiper bg-gray-100 mt-10">
                 <SwiperSlide>
                     <div className="flex flex-col md:flex-row gap-10 w-full shadow-2xl p-6 mx-auto">
                         <div className="flex-1">

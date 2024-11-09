@@ -7,6 +7,7 @@ import Stats from '../Component/Stats/Stats';
 import Services from '../Component/Services/Services';
 import Call from '../Component/Call/Call';
 import Campaigns from '../Component/Campaigns/Campaigns';
+import TextBanner from '../Component/TextBanner/TextBanner';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                 <Call></Call>
                 <Campaigns></Campaigns>
             </div>
+            <TextBanner></TextBanner>
         </div>
     );
 };
