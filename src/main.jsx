@@ -9,6 +9,7 @@ import Root from './Root/Root';
 import Home from './Home/Home';
 import DonationForm from './Page/DonationForm/DonationForm';
 import Contact from './Page/Contact/Contact';
+import MyDonation from './Page/MyDonation/MyDonation';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '/mydonation',
+        element: <MyDonation></MyDonation>
       }
     ]
   },
